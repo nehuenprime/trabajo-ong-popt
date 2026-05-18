@@ -5,7 +5,11 @@
     --color-background-nav: #999999;
     --color-background-a: rgb(138, 43, 226);
     --color-background-footer: #fff;
-}
+} 
+/*
+Se me comitió sin querer y no llegué a agregar que metimos las variables :p
+así que este comentario cumple con el único propósito de poder hacer ESE commit en particular. Perdón :(
+*/
 
 /* --body-- */
 body{
