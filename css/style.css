@@ -1,52 +1,59 @@
+/* --Variables-- */
+:root {
+    --color-background-body: #c2f0f3;
+    --color-background-header: #71b8bb;
+    --color-background-nav: #999999;
+    --color-background-a: rgb(138, 43, 226);
+    --color-background-footer: #fff;
+}
+
+/* --body-- */
 body{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-family: "Nunito", sans-serif;
-    background-color: #c2f0f3;
+    background-color: var(--color-background-body);
+    line-height: 1.8; /*requisitos del tpº2*/
 }
 
-
-.nav{
-    background-color: #999999;
+/* --header-- */
+header{
+    background-color: var(--color-background-header); /*requisitos del tpº2*/
 }
 
+/* --a-- */
 a{
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
 }
 
+a:hover{
+    color: var(--color-background-a);
+}
+
+/* --nav-- */
 nav{
     padding: 15px;
 }
 
-a:hover{
-    color: blueviolet;
+.nav{
+    background-color: var(--color-background-nav);
 }
 
-.index-section-1{
-    text-align: center;
-    margin: 10px;
-}
-
+/* --h1-- */
 h1{
     font-size: 1.2em;
     padding-top: 15px;
 }
 
+/* --ul-- */
 ul{
     list-style: none;
 }
 
-
-
-.index-footer{
-    color: #fff;
-    background-color: #444;
-    padding-bottom: 10px;
-}
-
+/* --img-- */
 img{
     width: 500px;
     display: flex;
@@ -57,9 +64,21 @@ img{
     border-radius: 10px;
 }
 
-
 .img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/* --section-- */
+.index-section-1{
+    text-align: center;
+    margin: 10px;
+}
+
+/* --footer-- */
+.index-footer{
+    color: var(--color-background-footer);
+    background-color: #444;
+    padding-bottom: 10px;
 }
