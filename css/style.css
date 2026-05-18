@@ -68,6 +68,17 @@ img{
     border-radius: 10px;
 }
 
+
+section input{
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+
+
+input::placeholder{
+    font-size: 1.3em;
+}
+
 .img{
     display: flex;
     flex-wrap: wrap;
