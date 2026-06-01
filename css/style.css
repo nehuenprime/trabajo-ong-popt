@@ -80,9 +80,18 @@ img{
     margin: 10px;
 }
 
+
+/* HOVER (solo imagen) */
+.img1:hover{
+    filter: brightness(1); 
+    transform: scale(1.08); 
+}
+
+
 /* --footer-- */
 .index-footer{
     color: var(--color-background-footer);
     background-color: #444;
     padding-bottom: 10px;
 }
+
