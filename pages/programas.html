@@ -12,12 +12,54 @@
 </head>
 <body>
     <header>
-        <nav class="nav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">POPT</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Programas
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="programas.html#programa-1">Programando un Futuro Juntos</a></li>
+                                <li><a class="dropdown-item" href="programas.html#programa-2">HTML: Hoy Trabajamos, Mañana Llegamos</a></li>
+                                <li><a class="dropdown-item" href="programas.html#programa-3">Trabajo Tech</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--<nav class="nav">
             <a href="../index.html">Inicio</a>
             <a href="nosotros.html">Nosotros</a> 
             <a href="programas.html">Programas</a>
             <a href="contacto.html">Contacto</a>
-        </nav>
+        </nav>-->
         <h1>Conoce nuestros Programas</h1>
         <p>Junto a nuestros programas ayudamos a miles de niños a lo largo y ancho del país. <br>
             si querés ser parte de nuestra familia podés revisar los siguientes Programas: </p>
@@ -30,13 +72,15 @@
         <li>HTML: Hoy Trabajamos, Mañana Llegamos</li>
         <li>Trabajo Tech</li>
     </ul>
-    <section>
+    <section id="programa-1">
         <h3>Programando un Futuro Juntos</h3>
             <p>
                 Orientado para niños y pre-adolescentes de la edad entre 10 a 15; busca sacar de las calles a chicos/as brindándoles la oportunidad <br>
                 no sólo aprender a programar en un ambiente controlado y seguro, dónde pueden, además, crear lazos con sus compañeros, sino también <br> 
                 el acceso a las 3 comidas diarias (almuerzo, merienda y cena). Logrando así un refugio, muchas veces, de ambientes conflictivos intra-familiares.
             </p>
+    </section>
+    <section id="programa-2">
         <h3>HTML: Hoy Trabajamos, Mañana Llegamos</h3>
             <p>
                 Orientado a adolescentes/jovenes adultos; HTML propone la idea de ayudar mentes jovenes-adultas a consiliar una postura más centrada en lo <br>
@@ -45,7 +89,8 @@
                 la creación de páginas Web. De esta manera ellos pueden dejar plasmado no sólo en el mundo material, sino también en el virtual, aquello que tal vez <br>
                 ayude a otros chicos/as en su misma situación a salir adelante. Juntos.
             </p>
-
+    </section>
+    <section id="programa-3">
             <h3>Trabajo Tech</h3>
             <p>
                 Orientado a adolescentes/adultos, "Trabajo Tech" esta orientado a brindar las herramientas necesarias para que las personas puedan insertarse en el mercado laboral de sistemas. <br>
@@ -60,4 +105,7 @@
 <footer class="index-footer">
         <p>@hola esto esta protegido - 2026</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>-->
 </html>

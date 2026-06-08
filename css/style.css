@@ -24,6 +24,8 @@ body{
 /* --header-- */
 header{
     background-color: var(--color-background-header); /*requisitos del tpº2*/
+    position: sticky;
+    top: 0;
 }
 
 /* --a-- */
@@ -40,6 +42,7 @@ a:hover{
 /* --nav-- */
 nav{
     padding: 15px;
+    display: flex;
 }
 
 .nav{
