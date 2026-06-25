@@ -35,9 +35,9 @@ body.modo-oscuro{
     color: var(--color-text);
 }
 
-/*.fondo-nav{
-    background-color: var(--color-oscuro) !important;
-}*/
+.fondo-nav{
+    background-color: var(--color-background-header) !important;
+}
 
 /* --header-- */
 header{
