@@ -25,6 +25,21 @@ body{
     background-color: var(--color-oscuro) !important;
 }*/
 
+nav button{
+    background-color: var(--color-oscuro);
+    color: var(--color-text-plus);
+}
+
+
+body.modo-oscuro{
+    background-color: var(--color-modoOscuro);
+    color: var(--color-text);
+}
+
+.fondo-nav{
+    background-color: var(--color-background-header) !important;
+}
+
 /* --header-- */
 header{
     background-color: var(--color-background-header); /*requisitos del tpº2*/
