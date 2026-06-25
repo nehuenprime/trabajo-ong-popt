@@ -1,0 +1,12 @@
+:root{
+    --color-background-section: #b7faff;
+}
+
+section{
+    margin: 3rem !important;
+    padding: 3rem;
+    border: 1px solid #3333333f;
+    border-radius: 25px;
+    background-color: var(--color-background-section);
+    
+}
