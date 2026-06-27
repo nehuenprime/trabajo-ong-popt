@@ -80,6 +80,76 @@ ul{
     list-style: none;
 }
 
+
+#programa-1{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    )
+    ,url("../Image/chadprogramando.jpg");
+    margin-bottom: 20em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding:10em 6.1em;
+    background-position: center;
+    background-size: cover;
+    color: var(--color-text);
+}
+
+
+
+#programa-2{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    )
+    ,url("../Image/1366_2000.jpg");
+    margin-bottom: 20em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding:9em 6.1em;
+    background-position: center;
+    background-size: cover;
+    color: var(--color-text);
+}
+
+
+
+#programa-3{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    )
+    ,url("../Image/programar.jpg");
+    margin-bottom: 20em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding:9em 6.1em;
+    background-position: center;
+    background-size: cover;
+    color: var(--color-text);
+}
+
+
+.programas-btn{
+    background-color: var(--color-background-body);
+    color: var(--color-text-plus);
+    border-radius: 7px;
+    padding: 5px 10px;
+    color: var(--color-oscuro);
+    margin-top: 1.2em;
+}
+
+.programas-btn:hover{
+    background-color: var(--color-background-header);
+}
+
+
+
+
 /* --img-- */
 img{
     width: 500px;
