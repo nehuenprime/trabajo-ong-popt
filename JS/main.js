@@ -17,7 +17,7 @@ if (button) {
     })
 }
 
-//Todo esto de acá es para el formulario xdd
+//Todo esto de acá es para el formulario
 const formNewsletter = document.getElementById("form-newsletter");
 const inputEmail = document.getElementById("exampleInputEmail1");
 const msgNewsletter = document.getElementById("msg-newsletter");

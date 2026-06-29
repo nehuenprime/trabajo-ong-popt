@@ -23,9 +23,6 @@ body{
     transition: 0.5s ease, color 0.5s ease;
 }
 
-/*.fondo-nav{
-    background-color: var(--color-oscuro) !important;
-}*/
 
 nav button{
     background-color: var(--color-oscuro);
@@ -41,6 +38,10 @@ body.modo-oscuro{
 
 .fondo-nav{
     background-color: var(--color-background-header) !important;
+}
+
+.popt-logo{
+    width: 3rem;
 }
 
 /* --header-- */
@@ -62,14 +63,14 @@ a:hover{
 }
 
 /* --nav-- */
-nav{
-    padding: 15px;
-    display: flex;
+
+
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
 }
 
-.nav{
-    background-color: var(--color-background-nav);
-}
 
 /* --h1-- */
 h1{
@@ -88,7 +89,7 @@ ul{
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
     )
-    ,url("../Image/chadprogramando.jpg");
+    ,url("../Image/pibe-programando.avif");
     margin-bottom: 20em;
     justify-content: center;
     text-align: center;
@@ -111,7 +112,7 @@ ul{
     justify-content: center;
     text-align: center;
     align-items: center;
-    padding:9em 6.1em;
+    padding:9em 6em;
     background-position: center;
     background-size: cover;
     color: var(--color-text);
@@ -124,7 +125,7 @@ ul{
     rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)
     )
-    ,url("../Image/programar.jpg");
+    ,url("../Image/programando.avif");
     margin-bottom: 20em;
     justify-content: center;
     text-align: center;
@@ -169,7 +170,6 @@ section input{
     border-radius: 5px;
 }
 
-
 input::placeholder{
     font-size: 1.3em;
 }
@@ -180,17 +180,11 @@ input::placeholder{
     justify-content: center;
 }
 
+
 /* --section-- */
 .index-section-1{
     text-align: center;
     margin: 10px;
-}
-
-
-/* HOVER (solo imagen) */
-.img1:hover{
-    filter: brightness(1); 
-    transform: scale(1.08); 
 }
 
 
@@ -202,6 +196,7 @@ input::placeholder{
     color: var(--color-text-plus);
     padding: 60px 0 20px;
     margin-top: 80px;
+    border-top: 1px solid var(--color-text);
 }
 
 .footer-popt h4, h5{

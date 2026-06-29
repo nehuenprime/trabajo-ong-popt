@@ -3,6 +3,7 @@
     padding: 2rem;
     border: 1px solid #3333333f;
     border-radius: 25px;
+    box-shadow: 1px 1px 1px 1px #c2f0f3;
 }
 
 dl{
