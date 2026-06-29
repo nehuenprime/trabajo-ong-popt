@@ -77,20 +77,23 @@
                 
                 <section class="col text-center">
                     <h2>Formulario de Contacto</h2>
-                    <form>
-                        <div class="mb-3">
+                    <form id="form-newsletter" novalidate>
+                        <div class="mb-3"> <!---->
                             <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
                             <input type="email" placeholder="@gmail.com" class="form-control" id="exampleInputEmail1" required aria-describedby="emailHelp">
+                            <p id="msg-newsletter" class="mt-2"></p>
                         </div>
                         
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Nombre</label>
                             <input type="text" placeholder="Tu Nombre" class="form-control" id="exampleInputPassword1" required>
+                            <p id="msg-newsletter2" class="mt-2"></p>
                         </div>
                         
                         <div class="mb-3">
                             <label for="telefono" class="form-label">Telefono</label>
-                            <input type="tel" placeholder="+54 9 11 2344-5462" class="form-control" id="exampleInputPassword1">
+                            <input type="tel" placeholder="+54 9 11 2344-5462" class="form-control" id="exampleInputPassword2">
+                            <p id="msg-newsletter3" class="mt-2"></p>
                         </div>
                         
                         <button type="submit" class="btn btn-primary">Enviar</button>

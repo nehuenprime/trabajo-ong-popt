@@ -20,6 +20,7 @@ body{
     font-family: "Nunito", sans-serif;
     background-color: var(--color-background-body);
     line-height: 1.8; /*requisitos del tpº2*/
+    transition: 0.5s ease, color 0.5s ease;
 }
 
 /*.fondo-nav{
@@ -35,6 +36,7 @@ nav button{
 body.modo-oscuro{
     background-color: var(--color-oscuro);
     color: var(--color-text);
+    transition: 0.5s ease, color 0.5s ease;
 }
 
 .fondo-nav{
