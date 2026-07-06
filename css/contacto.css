@@ -1,7 +1,7 @@
 :root{
     --color-text-plus: #f5f5f5;
-    --color-background-header: #568b8d;
     --color-background-body: #c2f0f3;
+    --color-background-header: #71b8bb;
 }
 
 section{
@@ -14,3 +14,4 @@ section{
     box-shadow: 1px 1px 1px 1px var(--color-background-body);
     /*box-shadow: 0px 0px 20px 5px var(--color-background-header);*/
 }
+

@@ -21,6 +21,7 @@ body{
     background-color: var(--color-background-body);
     line-height: 1.8; /*requisitos del tpº2*/
     transition: 0.5s ease, color 0.5s ease;
+    overflow-x: hidden;
 }
 
 
@@ -242,3 +243,60 @@ input::placeholder{
     font-size: 0.9rem;
 }
 
+
+
+@media (max-width: 992px){
+
+    #programa-1,
+    #programa-2,
+    #programa-3{
+        padding: 8em 3em;
+        margin-bottom: 8em;
+    }
+
+    img{
+        width: 100%;
+        max-width: 400px;
+    }
+
+    h1{
+        font-size: 2rem;
+    }
+
+}
+
+
+@media (max-width: 768px){
+
+    h1{
+        font-size: 1.8rem;
+        padding: 10px;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+
+    #programa-1,
+    #programa-2,
+    #programa-3{
+        padding: 6em 1.5em;
+        margin-bottom: 5em;
+    }
+
+    img{
+        width: 100%;
+        max-width: 300px;
+        margin: 20px auto;
+    }
+
+    .footer-popt{
+        text-align: center;
+    }
+
+}
